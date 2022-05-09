@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfd66757a3fa324db566485f48ff3dc, type: 3}
+  m_Name: Eclair
+  m_EditorClassIdentifier: 
+  cost: 1
+  name: Eclair
+  img: {fileID: 21300000, guid: 96a6f85e0ee038f49b6cb6b835c74fa7, type: 3}
+  effect: "Inflige 3 d\xE9g\xE2ts, piochez 1 carte"
+  color: {r: 0.990566, g: 0.9474624, b: 0.3317462, a: 1}
+  effects:
+  - {fileID: 11400000, guid: 40a5f2b150edd984690906d8ed8c03c9, type: 2}
+  - {fileID: 11400000, guid: 40df361d1fae7244889b0b83d70ed3a7, type: 2}
